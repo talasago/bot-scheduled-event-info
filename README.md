@@ -1,0 +1,2 @@
+# リポジトリの説明
+SlackBot connpass上で参加予定のイベント情報をslackに通知する
