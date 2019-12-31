@@ -47,7 +47,7 @@ for ((i=0;i<results_returned;i++)); do
       "username": "【リマインダー】本日参加予定の勉強会",
       "icon_emoji": ":pencil2:",
       "attachments": [{
-        "pretext": "${started_at}〜${ended_at}",
+        "pretext": "<!channel> ${started_at}〜${ended_at}",
         "title": "${title}",
         "text": "${address} ${place}\n ${event_url}"
       }]
