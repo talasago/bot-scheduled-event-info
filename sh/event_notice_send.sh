@@ -11,7 +11,6 @@ readonly LOGFILE=${WORKDIR}/log/event_notice_send${CURRENT_DATE}.log
 exec 2> ${LOGFILE}
 
 # tempファイル
-tmp_ec2_tags=$(mktemp /tmp/tmp_ec2_tags-XXXXXX)
 tmp_api_res=$(mktemp /tmp/tmp_api_res-XXXXXX)
 trap 'rm -rf /tmp/tmp_*' EXIT
 
